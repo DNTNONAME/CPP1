@@ -7,9 +7,9 @@ public class GunManager {
     private ArrayList<Gun> Guns;
 
     public GunManager(){};
-    public GunManager(ArrayList<Gun> songs)
+    public GunManager(ArrayList<Gun> guns)
     {
-        Guns = songs;
+        Guns = guns;
     }
 
     static class LengthComparator implements Comparator<Gun>
